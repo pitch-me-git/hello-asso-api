@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/hello-asso-api.svg)](http://badge.fury.io/rb/hello-asso-api)[gem]
+
 # hello-asso-api
 
 This gem makes it easier to fetch data from the API of HelloAsso.
