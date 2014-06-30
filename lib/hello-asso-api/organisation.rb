@@ -5,7 +5,11 @@ module HelloAssoApi
     include HTTParty
 
     def self.fetch(param)
-      response = HTTParty.get(HelloAssoApi::HTTP_URL + param.to_s)
+      HTTParty.get(HelloAssoApi::HTTP_URL + param.to_s)
+    end
+
+    def self.fetchAll(page = 1)
+      HTTParty.get(HelloAssoApi::HTTP_URL + 'organizations/' + page.to_s)
     end
   end
 end
