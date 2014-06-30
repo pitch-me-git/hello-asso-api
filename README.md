@@ -17,7 +17,7 @@ organization = HelloAssoApi::Organization.fetch(60)
 puts organization
 
 # Fetch an organization by its slug
-organization = HelloAssoApi::Organization.fetch('planete-i-d-e-a-l ')
+organization = HelloAssoApi::Organization.fetch('planete-i-d-e-a-l')
 puts organization
 
 # Fetch the list of all organizations
