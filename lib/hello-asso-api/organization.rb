@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 module HelloAssoApi
-  class Organisation
+  class Organization
     include HTTParty
 
     def self.fetch(param)
