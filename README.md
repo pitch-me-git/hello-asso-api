@@ -1,4 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/hello-asso-api.svg)](http://badge.fury.io/rb/hello-asso-api)[gem]
+[![Gem Version](https://badge.fury.io/rb/hello-asso-api.svg)][gem]
 
 # hello-asso-api
 
