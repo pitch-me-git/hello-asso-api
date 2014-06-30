@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name            = 'hello-asso-api'
-  s.version         = '0.0.1'
+  s.version         = '0.0.2'
   s.date            = '2014-06-30'
   s.summary         = "Interact with HelloAsso's API"
   s.description     = "A basic gem to use the payment system of HelloAsso"
@@ -13,4 +13,5 @@ Gem::Specification.new do |s|
   s.license         = 'MIT'
   s.rdoc_options    = ["--charset=UTF-8"]
   s.require_paths   = ["lib"]
+  s.add_runtime_dependency 'httparty'
 end
